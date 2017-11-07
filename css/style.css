@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+/* 포트폴리오 목록 */
+
+.list-container {
+  background: yellow;
+}
+.list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.list li {
+  max-width: 100%;
+  height: auto;
+}
